@@ -106,6 +106,7 @@ var import_button;
 				QSMQuestion.addQuestionToQuestionBank( questions[i] );                                
 			}
 
+
                         if( pagination.total_pages > pagination.current_page){
                             var pagination_html = '<div class="qb-load-more-wrapper" style="text-align: center;margin: 20px 0 10px 0;"><input type="hidden" id="question_back_page_number" value="' + pagination.current_page + '"/>';
                             pagination_html += '<input type="hidden" id="question_back_total_pages" value="'+ pagination.total_pages +'"/>';
